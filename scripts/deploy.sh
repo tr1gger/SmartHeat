@@ -17,7 +17,7 @@ NC='\033[0m' # No Color
 # Script-Verzeichnis ermitteln
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
-SITE_DIR="$PROJECT_DIR/landing"
+SITE_DIR="$PROJECT_DIR/web/landing"
 
 echo -e "${BLUE}╔════════════════════════════════════════════════════════════╗${NC}"
 echo -e "${BLUE}║   Thermostat-Vergleich Deployment - Strato SFTP Upload    ║${NC}"
