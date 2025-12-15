@@ -1,0 +1,15 @@
+# FTP/SFTP credentials - NEVER commit!
+.ftp-config
+scripts/.ftp-config
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.log
