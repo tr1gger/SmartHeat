@@ -143,7 +143,18 @@ echo 'Fixing file permissions...'
 chmod 644 index.html
 chmod 644 impressum.html
 chmod 644 datenschutz.html
+chmod 644 sitemap.xml
+chmod 644 robots.txt
 chmod 644 css/style.css
+chmod 755 produkte
+chmod 644 produkte/index.html
+chmod 644 produkte/tado-x.html
+chmod 644 produkte/eve-thermo.html
+chmod 644 produkte/fritz-dect-302.html
+chmod 644 produkte/homematic-ip-evo.html
+chmod 644 produkte/bosch-smart.html
+chmod 755 vergleich
+chmod 644 vergleich/index.html
 echo 'Permissions fixed!'
 
 quit

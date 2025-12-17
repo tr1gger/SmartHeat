@@ -1,0 +1,7 @@
+# robots.txt für thermostat-vergleich.de
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://thermostat-vergleich.de/sitemap.xml
